@@ -1,0 +1,3 @@
+[submodule "bo"]
+	path = bo
+	url = https://github.com/jy-dev-300/bo.git

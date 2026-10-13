@@ -1,0 +1,73 @@
+# Secrets and local configuration
+**/.env
+**/.env.*
+!**/.env.example
+**/credentials*.json
+**/secrets*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.ruff_cache/
+**/.mypy_cache/
+**/.venv/
+**/venv/
+**/.coverage
+**/htmlcov/
+
+# JavaScript and generated frontend output
+**/node_modules/
+**/dist/
+**/.next/
+**/.expo/
+**/coverage/
+**/*.tsbuildinfo
+
+# Lab runtime state and experiment stores
+**/.harness/
+**/mlruns/
+**/*.sqlite3
+**/*.db-journal
+
+# Downloaded models, checkpoints, and local datasets
+**/*.ckpt
+**/*.onnx
+**/*.pt
+**/*.pth
+**/*.safetensors
+**/bo-bge-file-index/
+**/bo-bge-embeds/
+
+# Logs, temporary files, and OS/editor state
+**/*.log
+**/*.tmp
+**/.idea/
+**/.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local research/learning notes and generated codebooks
+/ux.md
+**/scaffolding-prompt.txt
+**/STUDENT_TASKS.md
+**/STUDENT_TASKS*.md
+**/INTERVIEW_DRILLS.md
+**/INTERVIEW_DRILLS*.md
+**/LEARNING.md
+**/LEARNING_NOTES*.md
+**/MASTERY.md
+**/*_CODEBOOK.md
+**/*_CORE.md
+**/*_INGESTION.md
+**/*_RETRIEVAL.md
+**/*_GROUNDING.md
+**/*_HARNESSES.md
+**/*_MEASUREMENT.md
+**/*_EXPERIMENTS.md
+**/*_PRODUCT.md
